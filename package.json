@@ -2,7 +2,7 @@
   "name": "patchworkui",
   "version": "1.0.0",
   "description": "UI Library made for personal projects and learning react/css/other shizz better",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +11,16 @@
     "url": "main"
   },
   "author": "Parker \"Patchrikc\" Kelley",
-  "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "license": "MIT"
 }
