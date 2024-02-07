@@ -1,0 +1,15 @@
+{
+  "name": "patchworkui",
+  "version": "1.0.0",
+  "description": "UI Library made for personal projects and learning react/css/other shizz better",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "main"
+  },
+  "author": "Parker \"Patchrikc\" Kelley",
+  "license": "MIT"
+}
