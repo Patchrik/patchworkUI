@@ -21,13 +21,14 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const Primary: Story = {
+export const Patchwork: Story = {
   args: {
     label: "Button Prime",
+    variant: "patchwork",
   },
 };
 
-export const Secondary: Story = {
+export const Notion: Story = {
   args: {
     label: "Button Second",
   },

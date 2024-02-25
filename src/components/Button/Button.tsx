@@ -4,9 +4,20 @@ import "../Button/button.css";
 interface ButtonProps {
   label: string;
   onClick: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  variant?: "notion" | "MUI" | "Ant" | "Bootstrap" | "patchwork";
+  color?: "primary" | "secondary" | "success" | "error" | "warning";
 }
-const Button = (props: ButtonProps) => {
-  return <button onClick={props.onClick}>{props.label}</button>;
+const Button = ({
+  onClick,
+  label,
+  variant = "patchwork",
+  color = "primary",
+}: ButtonProps) => {
+  return (
+    <button className={variant} onClick={onClick}>
+      {label}
+    </button>
+  );
 };
 
 export default Button;
