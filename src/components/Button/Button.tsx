@@ -4,7 +4,7 @@ import "../Button/button.css";
 interface ButtonProps {
   label: string;
   onClick: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
-  variant?: "notion" | "MUI" | "Ant" | "Bootstrap" | "patchwork";
+  variant?: "notion" | "MUI" | "Ant" | "bootstrap" | "patchwork";
   color?: "primary" | "secondary" | "success" | "error" | "warning";
 }
 const Button = ({

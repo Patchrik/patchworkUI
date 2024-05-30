@@ -1,0 +1,16 @@
+/* These are where default colors will live */
+:root {
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --warning: #ffc107;
+  --error: #dc3545;
+  --light-text: #fff;
+  --dark-text: #000;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+/* End of colors */

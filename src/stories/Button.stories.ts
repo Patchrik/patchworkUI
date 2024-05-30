@@ -23,13 +23,35 @@ type Story = StoryObj<typeof meta>;
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Patchwork: Story = {
   args: {
-    label: "Button Prime",
+    label: "Button patchwork",
     variant: "patchwork",
   },
 };
 
 export const Notion: Story = {
   args: {
-    label: "Button Second",
+    label: "Button notion",
+    variant: "notion",
+  },
+};
+
+export const MUI: Story = {
+  args: {
+    label: "Button MUI",
+    variant: "MUI",
+  },
+};
+
+export const Ant: Story = {
+  args: {
+    label: "Button Ant",
+    variant: "Ant",
+  },
+};
+
+export const Bootstrap: Story = {
+  args: {
+    label: "Button bootstrap",
+    variant: "bootstrap",
   },
 };
