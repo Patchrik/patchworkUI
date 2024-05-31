@@ -1,12 +1,33 @@
 /* These are where default colors will live */
 :root {
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --warning: #ffc107;
-  --error: #dc3545;
+  /* Shared colors */
   --light-text: #fff;
   --dark-text: #000;
+  /* Ant Colors */
+  --ant-primary: #1890ff;
+  --ant-success: #52c41a;
+  --ant-warning: #faad14;
+  --ant-error: #ff4d4f;
+  /* Bootstrap colors */
+  --bs-primary: #0d6efd;
+  --bs-success: #61ac89;
+  --bs-danger: #df4857;
+  --bs-warning: #ffc107;
+  --bs-info: #10abcb;
+  /* Material UI colors */
+  --mui-primary: #2196f3;
+  --mui-secondary: #f50057;
+  --mui-success: #2e7d32;
+  --mui-warning: #ed6c02;
+  --mui-error: #d32f2f;
+
+  /* Patchwork colors */
+  --pw-primary: #0b3948;
+  --pw-secondary: #bbc7a4;
+  --pw-light-text: #f2f5ea;
+  --pw-dark-text: #292f36;
+  --pw-link: #7d84b2;
+  --pw-success: #6f804f;
 }
 
 .disabled {
