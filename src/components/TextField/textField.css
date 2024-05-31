@@ -1,0 +1,30 @@
+@import "../../styles/defaults.css";
+
+.textfield--patchwork {
+  padding: 2em;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  /* Label */
+  label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  /* Input */
+  input {
+    color: var(--pw-dark-text);
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    border-bottom: solid 1px var(--pw-secondary);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 2px;
+    &:focus {
+      outline: none;
+      border-bottom: solid 1px var(--pw-primary);
+      box-shadow: 0 2px 2px -2px var(--pw-secondary);
+    }
+  }
+}

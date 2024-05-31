@@ -1,7 +1,7 @@
 /* FILEPATH: /home/parker/workspace/patchworkUI/src/components/Button/button.css */
 @import "../../styles/defaults.css";
 
-button {
+.btn {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
@@ -13,7 +13,7 @@ button {
   background-color: inherit;
 }
 
-.patchwork {
+.btn--patchwork {
   background-color: var(--pw-light-text);
   color: var(--pw-dark-text);
   border: 0.5px solid var(--pw-secondary);
@@ -26,7 +26,7 @@ button {
   }
 }
 
-.notion {
+.btn--notion {
   color: #000;
   border: 0.5px solid black;
   border-radius: 20px;
@@ -34,7 +34,7 @@ button {
   font-size: small;
 }
 
-.MUI {
+.btn--MUI {
   background-color: var(--mui-primary);
   color: var(--light-text);
   border: none;
@@ -55,7 +55,7 @@ button {
   }
 }
 
-.Ant {
+.btn--Ant {
   background-color: var(--ant-primary);
   color: var(--light-text);
   border: none;
@@ -67,7 +67,7 @@ button {
   }
 }
 
-.bootstrap {
+.btn--bootstrap {
   background-color: var(--bs-primary);
   color: var(--light-text);
   border: none;

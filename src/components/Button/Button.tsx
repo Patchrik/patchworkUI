@@ -14,7 +14,7 @@ const Button = ({
   color = "primary",
 }: ButtonProps) => {
   return (
-    <button className={variant} onClick={onClick}>
+    <button className={`btn btn--${variant}`} onClick={onClick}>
       {label}
     </button>
   );
