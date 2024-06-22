@@ -20,6 +20,11 @@
   --mui-success: #2e7d32;
   --mui-warning: #ed6c02;
   --mui-error: #d32f2f;
+  /* Notion colors */
+  --notion-black: #000000;
+  --notion-white: #ffffff;
+  --notion-gray: #a2a2a2;
+  --notion-nav-gray: #f6f5f4;
 
   /* Patchwork colors */
   --pw-primary: #0b3948;

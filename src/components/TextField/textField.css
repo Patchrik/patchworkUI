@@ -28,3 +28,26 @@
     }
   }
 }
+
+.textfield--notion {
+  padding: 0.5em;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: solid 1px var(--notion-gray);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px -2px var(--notion-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Input */
+  input {
+    color: var(--pw-dark-text);
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}

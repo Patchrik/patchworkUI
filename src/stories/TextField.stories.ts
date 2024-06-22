@@ -27,3 +27,11 @@ export const Patchwork: Story = {
     placeholder: "Type here",
   },
 };
+
+export const Notion: Story = {
+  args: {
+    label: "Notion",
+    variant: "notion",
+    placeholder: "Type here",
+  },
+};

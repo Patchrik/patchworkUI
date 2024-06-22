@@ -16,7 +16,7 @@ const TextField = ({
 }: TextFieldProps) => {
   return (
     <div className={`textfield--${variant}`}>
-      <label htmlFor={label}>{label}</label>
+      {variant === "patchwork" && <label htmlFor={label}>{label}</label>}
       <input
         type="text"
         id={label}
